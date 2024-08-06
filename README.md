@@ -1,5 +1,17 @@
 # Simple_Oligo_Matching_Tool
-Simple_Oligo_Matching_Tool
+
+### Introduction to the User Manual
+
+This manual is designed to facilitate users in utilizing a specialized Python script for analyzing DNA sequences with specific primers. The script makes extensive use of the BioPython library for efficient sequence processing, employs concurrent programming techniques to manage multiple files simultaneously, and utilizes pandas for sophisticated data manipulation.
+
+The manual is divided into two main sections:
+
+1. **Script(Simple_Oligo_Matching_Tool) Usage Guide**: Provides detailed instructions on how to use the script, including descriptions of its functions, setup of input parameters, and how to interpret the outputs.
+2. **IDE Setup Instructions**: Offers a comprehensive guide to installing and configuring Visual Studio Code (VS Code), a popular and accessible Integrated Development Environment (IDE), to run the Python script effectively. This section is tailored to help even those with no previous experience in programming or development environments.
+
+Each section is structured to provide step-by-step instructions to ensure ease of use and to help users efficiently achieve their objectives with the script.
+
+## Script(Simple_Oligo_Matching_Tool) Usage Guide
 
 This manual provides a guide to using the provided Python script for analyzing DNA sequences with specific primers. The script leverages the BioPython library for sequence processing, concurrent programming for handling multiple files in parallel, and pandas for data manipulation.
 
@@ -141,4 +153,72 @@ By setting up everything as described, you can smoothly run the script and get y
 
 
 
+## Introduction to Setting Up an Integrated Development Environment(IDE) Setup Instructions
+
+This section of the manual is dedicated to assisting users in establishing a functional Integrated Development Environment (IDE) to effectively run Python scripts. We have chosen Visual Studio Code (VS Code) as the recommended IDE due to its broad accessibility and user-friendly interface. This guide aims to provide step-by-step instructions to ensure even users with no prior experience in programming environments can set up and begin using VS Code for Python development with ease.
+
+### Step 1: Install Python
+
+Before using any Python scripts, you need to have Python installed on your computer:
+
+1. **Download Python**:
+   - Visit the official Python website at [python.org](https://www.python.org/downloads/).
+   - Download the latest version of Python for your operating system (Windows, macOS, or Linux).
+   - Follow the installation instructions on the website.
+
+2. **Check Installation**:
+   - Open your command prompt (Windows) or terminal (macOS or Linux).
+   - Type `python --version` and press Enter. If Python is installed correctly, you should see the version number displayed.
+
+### Step 2: Install Visual Studio Code (VS Code)
+
+VS Code is a popular IDE that makes coding easier with its intuitive interface and powerful features:
+
+1. **Download VS Code**:
+   - Go to the [VS Code website](https://code.visualstudio.com/) and download the installer for your operating system.
+   - Run the installer and follow the on-screen instructions to complete the installation.
+
+2. **Open VS Code**:
+   - Once installed, open VS Code from your applications or programs list.
+
+### Step 3: Set Up VS Code for Python Development
+
+To make VS Code ready for Python development, you need to install the Python extension:
+
+1. **Install Python Extension**:
+   - In VS Code, go to the Extensions view by clicking on the square icon on the sidebar or pressing `Ctrl+Shift+X`.
+   - Search for "Python" and find the extension provided by Microsoft.
+   - Click on "Install" to add the extension to VS Code.
+
+2. **Open Your Project**:
+   - In VS Code, go to `File > Open Folder...` and select the folder where you've saved your Python script.
+
+### Step 4: Configure the Python Interpreter
+
+Ensure that VS Code uses the correct Python interpreter:
+
+1. **Open the Command Palette**:
+   - Press `Ctrl+Shift+P` to open the Command Palette.
+   - Type "Python: Select Interpreter" and press Enter.
+
+2. **Select Python Interpreter**:
+   - Choose the Python version you installed earlier. It usually appears with the path where Python is installed.
+
+### Step 5: Run the Script
+
+Now that everything is set up, you can run the Python script:
+
+1. **Open the Script**:
+   - In VS Code, navigate to the Explorer on the sidebar, and double-click your Python script (it should end in `.py`) to open it.
+
+2. **Run the Script**:
+   - Right-click in the editor window containing your script and select "Run Python File in Terminal" or use the play button in the top-right corner of the editor.
+   - VS Code will execute the Python script in the terminal at the bottom of the window, and you'll see the outputs or any messages printed by your script.
+
+### Tips for Success
+
+- **Check Your Script's Requirements**: Make sure you install any required libraries (like `biopython` or `pandas`) using pip in the VS Code terminal. For example, you can type `pip install biopython` directly in the terminal.
+- **Save Your Changes**: Remember to save your script after any modifications by pressing `Ctrl+S`.
+
+By following these steps, even users with no prior knowledge of development environments can set up and run a Python script efficiently, allowing them to focus more on their research or tasks.
   
